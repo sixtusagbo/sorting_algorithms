@@ -3,6 +3,7 @@
 
 /**
  * print_info - display message
+ *
  * @msg: message
  * @a: array
  * @from: from
@@ -27,7 +28,7 @@ void print_info(char *msg, int *a, int from, int to)
 
 /**
  * merge - Merges the arrays
- * 
+ *
  * @a: array
  * @low: low index
  * @middle: middle
@@ -67,7 +68,7 @@ void merge(int *a, int low, int middle, int high, int *buff)
 }
 /**
  * msort - Splits the arrays recursively then merges it
- * 
+ *
  * @array: array
  * @low: low index
  * @high: high index
