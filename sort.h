@@ -32,5 +32,6 @@ void print_info(char *msg, int *a, int from, int to);
 void merge(int *a, int low, int middle, int high, int *buff);
 void msort(int *array, int low, int high, int *buffer);
 void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
 
 #endif
