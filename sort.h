@@ -28,5 +28,9 @@ void shell_sort(int *array, size_t size);
 void _ssort(int *a, int size, int n);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void print_info(char *msg, int *a, int from, int to);
+void merge(int *a, int low, int middle, int high, int *buff);
+void msort(int *array, int low, int high, int *buffer);
+void merge_sort(int *array, size_t size);
 
 #endif
